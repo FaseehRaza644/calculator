@@ -52,3 +52,27 @@ body{
     width: 100%;
     padding-top: 100px;
 }
+@media screen and (max-width:600px){
+    h1{
+        font-size: 20px;
+    }
+    .table input{
+        border: none;
+        width: 65%;
+        height: 30px;
+        border-radius: 10px;
+        text-align: center;
+        margin-left: 2.5%;
+        
+    }
+    #clickBtn{
+        border: none;
+        width: 40%;
+        height: 30px;
+        border-radius: 15px;
+        margin-top: 10%;
+    }
+    .table{
+        padding: 20px;
+    }
+}
