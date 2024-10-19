@@ -84,3 +84,62 @@ a{
     border-radius: 20px;
     padding: 20px;
 }
+  
+
+ @media screen and (max-width:600px) 
+{
+    .calculator{
+        background-color: black;
+        border-radius: 40px;
+        -webkit-box-shadow: 7px 7px 62px 4px rgba(0,0,0,0.75);
+        -moz-box-shadow: 7px 7px 62px 4px rgba(0,0,0,0.75);
+        box-shadow: 7px 7px 62px 4px rgba(0,0,0,0.75);
+        padding: 10px;
+        width: 61%;
+    }
+    .h1{
+        text-align: center;
+        font-size: 40px;
+        padding: 40px;
+        text-decoration: underline;
+        font-style: italic;
+    }
+
+    #input{
+        height: 150px;
+        width: 100%;
+        border: none;
+        text-align: right;
+        padding-right: 30px;
+        background-color: transparent;
+        color: white;
+        font-size: 30px;
+        cursor: pointer;
+    }
+    button{
+        height: 40px;
+        width: 40px;
+        margin: 5px;
+        border-radius: 50%;
+        background-color: #2A2A2C;
+        color: white;
+        font-size: 20px;
+        border: none;
+        -webkit-box-shadow: 1px 3px 13px 4px rgba(0,0,0,0.75);
+        -moz-box-shadow: 1px 3px 13px 4px rgba(0,0,0,0.75);
+        box-shadow: 1px 3px 13px 4px rgba(0,0,0,0.75);
+        margin: 5px;
+    }
+    .size{
+        width: 95px;
+        border-radius: 50px;
+    }
+    a{
+        text-decoration: none;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        font-size: 20px;
+        font-weight: 700;
+    }
+ }
